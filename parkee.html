@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parkee Clan</title>
+
+<style>
+body{
+        background-image: linear-gradient(to left, rgba(248, 6, 6, 0.897), #228B22);
+        text-align: center;
+        text-shadow: rgba(255, 0, 0, 0.699) 2px 2px;    
+    }
+    h1{
+     margin-bottom: 30px;
+     text-align: center;
+    }
+
+img{
+    height: 200px;
+}
+
+tr, td{
+ padding: 100px;
+}
+td{
+    text-align: center;
+}
+button{
+    text-align: center;
+margin: 5px;
+font-size: medium;
+background-color: rgba(210, 197, 221, 0.884);
+border: 2px solid;
+border-radius: 10px;
+font-weight: 600;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-shadow: rgba(128, 15, 0, 0.24) 2px 2px;
+
+}
+a:link{
+    color: rgb(20, 2, 2);
+}
+a:visited{
+    color: black;
+}
+/*To Top*/
+.stt{
+    position: fixed;
+    right: 1rem;
+    bottom: 3rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    border: 2px solid;
+    background: #165008 url("arrow-up-svgrepo-com (1).svg") center no-repeat;
+    background-size: 20px 20px;
+    box-shadow: 0 0.5rem 0.75rem 0 rgb(10, 2, 2);
+    opacity: 1;
+  }
+
+  .stt:hover{
+    opacity: 0.8;
+  }
+
+  .stt:active{
+    opacity: 1;
+  }
+/*To Bottom*/
+  .sst{
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    border: 2px solid;
+    background: #e20b0b9c url("arrow-down-svgrepo-com.svg") center no-repeat; 
+    box-shadow: 0 0.5rem 0.75rem 0 rgb(2, 1, 1);
+    background-size: 20px 20px;
+    opacity: 1;
+
+  }
+  .sst:hover{
+    opacity: 0.8;
+  }
+  .sst:active{
+    opacity: 1;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+@media(max-width:600px){
+ tr, td{
+     
+     display: block;
+     width: 300px;
+ }
+}
+
+ </style>
+</head>
+
+<body>
+ <h1 id="top">Parkee Clan</h1>
+ <br>
+
+ <nav>
+    <button><a href="index.html">Santoro Clan</a></button>
+     <button><a href="evan.html">Evan Clan</a></button>
+     <button><a href="parkee.html">Parkee Clan</a></button>
+     <button><a href="friends.html">Friends</a></button>
+     <!--<button><a href="pets.html">Pets</a></button>-->
+     <button><a href="all.html">All</a></button>
+  </nav>
+
+<table class="fam">
+ 
+<tr>
+     <td id="Jake"><img src="./parkee/jake.jpg">
+         <br><b class="name">Jake Parkee</b>
+         <br>Age:
+         <br>Occupation: 
+         <br> Relation: Family friend/Husband of Emily
+ </td>
+
+ <td id="emmy"><img src="./parkee/Emily.jpg">
+     <br><b class="name">Emily Parkee</b>
+     <br>Age:
+     <br> Occupation:
+     <br> Relation: Family friend/Wife of Jake
+</td>
+
+ <td id="gideon"><img src="./parkee/gideon.jpg">
+     <br><b class="name">Gideon/Sparrow</b>
+     <br>Age:
+     <br>Relation: Emily's Father
+ </td>
+</tr>
+<tr>
+ <td id="beth"><img src="./parkee/beth.jpg">
+     <br><b class="name">Bethany</b>
+     <br>Age:
+     <br>Relation: adopted daughter
+ </td>
+
+ <td id="Sam"> <img src="./parkee/sammy.jpg">
+     <br><b class="name">Sammy</b>
+     <br>Age:
+     <br>Relation: adopted son
+ </td>
+
+ <td id="hailey"><img src="./parkee/hailey.jpg">
+     <br><b class="name">Hailey</b>
+     <br>Age:
+     <br>Relation: adopted daughter
+ </td>
+</tr>
+
+</table>
+
+<a href="#top" class="stt" title="Scroll to Top"></a>
+ <a href="#bottom" class="sst" title="Scroll to Bottom"></a>
+ <h3 id="bottom"></h3>
+</html>
