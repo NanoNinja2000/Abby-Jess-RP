@@ -1,7 +1,7 @@
 body{
     background-image: linear-gradient(to left, rgba(248, 6, 6, 0.897), #228B22);
     text-align: center;
-    text-shadow: rgba(255, 0, 0, 0.699) 2px 2px;    
+    text-shadow: rgba(255, 0, 0, 0.699) 1.5px 1.5px;    
 }
 h1{
  margin-bottom: 30px;
